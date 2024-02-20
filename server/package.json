@@ -1,0 +1,28 @@
+{
+  "name": "MERN-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeds/seeds.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "bcrypt": "^5.1.1",
+    "console-table-printer": "^2.12.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
